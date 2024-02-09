@@ -1,0 +1,227 @@
+body{
+    background-color: #8b0000;
+    color: #fff;
+}
+
+.cabecalho {
+    height: 80px;
+    background-color: #8b0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid #e6a211;
+}
+
+.cabecalho .nome {
+    display: contents;
+    gap: 15px;
+    justify-content: space-between;
+    color: #e6a211;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+}
+
+.btn-contatos {
+    color: #e6a211;
+    font-weight: bolder;
+    font-size: 17px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+}
+
+.cabecalho .menu {
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho .menu li a {
+    padding: 30px;
+    color: #e6a211;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: "Chalet";
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+}
+
+.cabecalho .menu li a:hover {
+    border-bottom: 2px solid #e6a211;
+}
+
+.home {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px);
+}
+
+.home .background {
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #e6a211;
+}
+
+.home .informacoes {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vf - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 80px 80px 80px 170px;
+    max-width: 780px;
+}
+
+.planos {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px);
+}
+
+.planos .background {
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #e6a211;
+}
+
+.planos .informacoes {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vf - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 80px 80px 80px 170px;
+    max-width: 780px;
+}
+
+.planosfixo {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px);
+}
+
+.planosfixo .background {
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #e6a211;
+}
+
+.planosfixo .informacoes {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vf - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 80px 80px 80px 170px;
+    max-width: 780px;
+}
+
+.watch-paramount {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px);
+}
+
+.watch-paramount .background {
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #e6a211;
+}
+
+.watch-paramount .informacoes {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vf - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 80px 80px 80px 170px;
+    max-width: 780px;
+}
+
+.contatosComEmpresa {
+    height: 80px;
+    background-color: #8b0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.contatosComEmpresa .suporte .adm  {
+    display: contents;
+    gap: 15px;
+    justify-content: space-between;
+    color: #e6a211;    
+}
+
+.contatosComEmpresa .suporte .adm {
+    border-bottom: 2px solid #e6a211;
+}
+
+.tituloContato {
+    color: #e6a211;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+}
+
+.suporte {
+    color: #e6a211;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-left: 480px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+}
+
+.adm {
+    color: #e6a211;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-right: 10px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+}
+
+.textotv {
+    color: #e6a211;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #000;
+    font-size: 17px;
+}
+
+.titulo1 {
+    color: #e6a211;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+}
+
+.planoscomuns {
+    color: #e6a211;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+}
+
+.planoscomfixo {
+    color: #e6a211;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+}
+
+.titulowp {
+    color: #e6a211;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+}
